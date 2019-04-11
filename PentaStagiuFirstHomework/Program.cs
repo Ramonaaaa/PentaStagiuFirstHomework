@@ -28,8 +28,8 @@ namespace PentaStagiuFirstHomework
 
             Person person = new Person();
             person.Name = "Lulu";
-            person.personHouse.Area = 458;
-            person.personDoor.Color = "green";
+            person.house.Area = 458;
+            person.house.door.Color = "green";
             Console.WriteLine(person);
 
         }

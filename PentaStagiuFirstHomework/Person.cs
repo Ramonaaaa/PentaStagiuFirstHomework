@@ -20,12 +20,11 @@ namespace PentaStagiuFirstHomework
             }
         }
 
-        public House personHouse = new House();
-        public Door personDoor = new Door();
+        public House house = new House();
 
         public override string ToString()
         {
-            return $"My name is {name}. " + "\n" +  personHouse + "\n" + personDoor; 
+            return $"My name is {name}{Environment.NewLine}{house}{Environment.NewLine}{house.door}"; 
         }
     }
 }
